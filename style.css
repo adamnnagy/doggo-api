@@ -5,8 +5,8 @@ body {
 img {
     height: 200px;
     width: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0.5rem;
+    border-radius: 5%;
 }
 
 h1 {
@@ -26,8 +26,11 @@ button {
 .row {
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    margin: auto;
+    width: 80%;
 }
+
+
 
 #loading-gif {
     height: 4rem;
