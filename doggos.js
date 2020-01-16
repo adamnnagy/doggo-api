@@ -28,6 +28,8 @@ document.querySelector(".add-doggo").addEventListener("click", addNewDoggo);
 
 const { styler, spring, listen, pointer, value } = window.popmotion;
 
+//same as: const styler = window.popmotion.styler; --> and for all of the above
+
 const ball = document.querySelector('button');
 const divStyler = styler(ball);
 const ballXY = value({ x: 0, y: 0 }, divStyler.set);
